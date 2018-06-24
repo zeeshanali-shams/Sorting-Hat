@@ -1,0 +1,24 @@
+1.SignUp
+	1.1.Form Validation
+	1.2.Scripting Security(NO FALSE DataBase Entry)
+2.login
+	2.1.Validation
+	2.2.Login Security(Anonymous Can't Enter)
+	2.3.SQL Injection Prohabited
+3.My Profile(User can See their profile)
+4.Update Profile
+5.Change Skill and Expertise Level
+6.My Matches(User can see their Matches according to their skills)
+7.Add As Partner(You can click "Add As Partner" to Send Requests)
+8.Accept Request(You can accept request if you want to work with that person)
+9.One Person can Work with many persons by choosing them as their partner But At A Time Person can choose ONLY ONE SKILL. 
+10.When You have Completed your work with your Partners, you can Update your Skill then Your Previous Connections Get Lost and you can find new partner. 
+11.All Connections(Here You can see people who are connected and working together)
+12.You can Click on Name of any user and You can See their Profile.
+13.Chat
+
+Detailing:
+1. Responsive (PC,Laptop,Tablet,Mobile Phone)
+2. Very Light Website Which can open completely at internet speed of 6kbps. 
+3. Password Encryption then stored in DataBase(Using "Password_Hash" Function of PHP v5.2) ($hash = password_hash($password, PASSWORD_BCRYPT);)
+4. Anyone can't change another user's profile(Skills) Because While Updating profile, Password is necessary.
